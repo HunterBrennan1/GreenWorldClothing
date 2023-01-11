@@ -24,18 +24,18 @@ body {
 
 .svg_wave_path_top{
   height:80%;
-  background-color: #fff;
+  background-color: #f7e9d7;
   display: block;
 }
 .svg_wave_bottom{
   height:50px;
   width:100%;
-  background-color: #fff;
+  background-color: #f7e9d7;
   display: block;
 }
 .svg_wave_path_bottom{
   height:100%;
-  background-color: #fff;
+  background-color: #f7e9d7;
   display: block;
 }
 
@@ -61,9 +61,10 @@ body {
 .leaf_img{
   display:flex;
   position: absolute;
-  left:220px;
-  top:1100px;
+  left:240px;
+  top:990px;
   margin-left: -40px;
+  z-index: 9999;
   
   -webkit-animation: rotation 4s infinite linear;
 }
