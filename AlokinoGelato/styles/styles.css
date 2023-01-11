@@ -60,7 +60,7 @@ width: 50px;
 } 
 
 
-/* Main page section */
+/* banner text section */
 
 .hero-banner {
   padding-left: 21% !important;
@@ -111,8 +111,6 @@ font-size: 18px;
 }
 
 .discover-img {
-  color: white;
-  background-color: white;
   width: 25px;
   margin-left: 5px;
 }
@@ -125,6 +123,8 @@ font-size: 18px;
   text-align: left;
   text-transform: lowercase;
 }
+
+/* banner image section */
 
 .hero-img-ad {
   display: flex;
@@ -148,7 +148,6 @@ font-size: 18px;
   width: 30%;
   bottom: 50%;
   left: -25px;
-  animation: move-sun 30s alternate-reverse infinite linear;
   opacity: 0.5;
   -webkit-animation:spin 40s linear infinite;
   -moz-animation:spin 40s linear infinite;
@@ -157,9 +156,11 @@ font-size: 18px;
 @-moz-keyframes spin { 
   100% { -moz-transform: rotate(360deg); } 
 }
+
 @-webkit-keyframes spin { 
   100% { -webkit-transform: rotate(360deg); } 
 }
+
 @keyframes spin { 
   100% { 
       -webkit-transform: rotate(360deg); 
@@ -168,15 +169,10 @@ font-size: 18px;
 }
 
 #hero-pint {
-  width: 100%;
-  height: 100%;
+  width: 645px;
+  height: 1161px;
   z-index: 2;
   position: absolute;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url(/GreenWorldClothing/AlokinoGelato/styles/happy_day.png);
-  animation: move-pint 2s infinite alternate-reverse ease-in-out;
   -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite  alternate;
 }
@@ -190,6 +186,8 @@ font-size: 18px;
   100% { transform: translateY(-15px); }
 }
 
+/* media querys */
+
 
 @media screen and (max-width: 767px){
   .hero-banner {
@@ -199,7 +197,7 @@ font-size: 18px;
     justify-content: center;
     align-items: stretch;
     text-align: left;
-    padding-left: 15%;
+    padding-left: 12% !important;
     padding-right: 0;
 }
 
@@ -245,5 +243,9 @@ font-size: 18px;
 
   .discover-img {
     background-color: transparent;
+  }
+
+  .hero-img-ad {
+    padding-right: 13% !important;
   }
 }
