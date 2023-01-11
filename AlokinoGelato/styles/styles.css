@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.plant-based-section{
+  background: #6fbc85;
+}
+
+.svg_wave_path_top{
+  height:80%;
+  background-color: #fff;
+  display: block;
+}
+.svg_wave_bottom{
+  height:50px;
+  width:100%;
+  background-color: #fff;
+  display: block;
+}
+.svg_wave_path_bottom{
+  height:100%;
+  background-color: #fff;
+  display: block;
+}
+
+.pb_content_parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  gap:15%;
+
+  padding-left:200px;
+  padding-right:200px;
+}
+
+.image_container_pb{
+  height:800px;
+}
+
+.image2ndpage{
+  height:800px;
+}
+
+.leaf_img{
+  display:flex;
+  position: absolute;
+  left:190px;
+  top:1100px;
+}
+
+.text_content_container {
+  color:#fff;
+}
+
+.pb_header{
+  font-family:  'Bakbak One', cursive;
+  font-size: 110px;
+  width:100px;
+  line-height: 1;
+}
+
+.pb_text{
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  line-height: 1.4;
+  margin-top:50px;
+  font-weight: 400;
+  text-align: left;
+  width:700px;
+}
+
+.pb_footer_text {
+  font-family:  'Bakbak One', cursive ;
+  font-size: 50px;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
