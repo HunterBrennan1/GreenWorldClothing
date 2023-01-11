@@ -7,13 +7,20 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css"
+    />
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/cbcd6138e4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles/styles.css">
+
     <title>Alokino Gelato</title>
   </head>
   
   <body>
+    <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary pt-5">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -42,9 +49,8 @@
     </nav>
     </header>
 
-    <main>
-      <section class="container-fluid hero-banner pt-1 ">
-        <div class="row hero-banner-text">
+    <section class="container-fluid hero-banner pt-1 ">
+    <div class="row hero-banner-text">
           <div class="banner-wrap col-lg-6 col-md-6 order-2">
             <h1 class="banner-title">
               <span class="upper align-self-start">Plant</span>
@@ -67,19 +73,131 @@
             </div>
           </div>
         </div>
+    </section>
+    <section class="plant-based-section" id="plant-based-section">
+      <svg
+        class="svg_wave_path_top"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="wave"
+        style="transform: rotate(0deg); transition: 0.3s"
+        viewBox="0 0 1440 230"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(111, 188, 133, 1)" offset="0%" />
+            <stop stop-color="rgba(111, 188, 133, 1)" offset="100%" />
+          </linearGradient>
+        </defs>
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="url(#sw-gradient-0)"
+          d="M0,92L80,88.2C160,84,320,77,480,88.2C640,100,800,130,960,138C1120,146,1280,130,1440,115C1600,100,1760,84,1920,84.3C2080,84,2240,100,2400,107.3C2560,115,2720,115,2880,122.7C3040,130,3200,146,3360,126.5C3520,107,3680,54,3840,46C4000,38,4160,77,4320,92C4480,107,4640,100,4800,80.5C4960,61,5120,31,5280,19.2C5440,8,5600,15,5760,23C5920,31,6080,38,6240,61.3C6400,84,6560,123,6720,134.2C6880,146,7040,130,7200,134.2C7360,138,7520,161,7680,149.5C7840,138,8000,92,8160,69C8320,46,8480,46,8640,57.5C8800,69,8960,92,9120,107.3C9280,123,9440,130,9600,115C9760,100,9920,61,10080,49.8C10240,38,10400,54,10560,61.3C10720,69,10880,69,11040,69C11200,69,11360,69,11440,69L11520,69L11520,230L11440,230C11360,230,11200,230,11040,230C10880,230,10720,230,10560,230C10400,230,10240,230,10080,230C9920,230,9760,230,9600,230C9440,230,9280,230,9120,230C8960,230,8800,230,8640,230C8480,230,8320,230,8160,230C8000,230,7840,230,7680,230C7520,230,7360,230,7200,230C7040,230,6880,230,6720,230C6560,230,6400,230,6240,230C6080,230,5920,230,5760,230C5600,230,5440,230,5280,230C5120,230,4960,230,4800,230C4640,230,4480,230,4320,230C4160,230,4000,230,3840,230C3680,230,3520,230,3360,230C3200,230,3040,230,2880,230C2720,230,2560,230,2400,230C2240,230,2080,230,1920,230C1760,230,1600,230,1440,230C1280,230,1120,230,960,230C800,230,640,230,480,230C320,230,160,230,80,230L0,230Z"
+        />
+      </svg>
+      <div class="pb_content_parent">
+        <div class="image_container_pb">
+          <img src="./assets/img/pintimage2ndpage.png" class="image2ndpage" />
+        </div>
+        <div class="text_content_container">
+          <h2 class="pb_header">PLANT BASED</h2>
+          <p class="pb_text">
+            At Alokino we create handcrafted, plant-based gelato from scratch,
+            using only the highest quality, natural, raw ingredients that we can
+            source. There are no fillers, highly processed or semi-finished
+            ingredients in any of our recipes. The secret of our gelato is the
+            use of our innovative Balancing Method that requires a deep
+            understanding of the natural properties of each ingredient, combined
+            with an artisanal craftmanship approach. The result is an
+            all-natural gelato with a deliciously creamy texture, made of
+            carefully selected ingredients that you can feel good about.
+          </p>
+          <h3 class="pb_footer_text">No guilt babe, just gelato.</h3>
+        </div>
+      </div>
+      <img src="./assets/img/leaf.svg" class="leaf_img" />
+      <svg
+        class="svg_wave_path_bottom"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        id="wave"
+        style="transform: rotate(180deg); transition: 0.3s"
+        viewBox="0 0 1440 230"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(111, 188, 133, 1)" offset="0%" />
+            <stop stop-color="rgba(111, 188, 133, 1)" offset="100%" />
+          </linearGradient>
+        </defs>
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="url(#sw-gradient-0)"
+          d="M0,92L80,88.2C160,84,320,77,480,88.2C640,100,800,130,960,138C1120,146,1280,130,1440,115C1600,100,1760,84,1920,84.3C2080,84,2240,100,2400,107.3C2560,115,2720,115,2880,122.7C3040,130,3200,146,3360,126.5C3520,107,3680,54,3840,46C4000,38,4160,77,4320,92C4480,107,4640,100,4800,80.5C4960,61,5120,31,5280,19.2C5440,8,5600,15,5760,23C5920,31,6080,38,6240,61.3C6400,84,6560,123,6720,134.2C6880,146,7040,130,7200,134.2C7360,138,7520,161,7680,149.5C7840,138,8000,92,8160,69C8320,46,8480,46,8640,57.5C8800,69,8960,92,9120,107.3C9280,123,9440,130,9600,115C9760,100,9920,61,10080,49.8C10240,38,10400,54,10560,61.3C10720,69,10880,69,11040,69C11200,69,11360,69,11440,69L11520,69L11520,230L11440,230C11360,230,11200,230,11040,230C10880,230,10720,230,10560,230C10400,230,10240,230,10080,230C9920,230,9760,230,9600,230C9440,230,9280,230,9120,230C8960,230,8800,230,8640,230C8480,230,8320,230,8160,230C8000,230,7840,230,7680,230C7520,230,7360,230,7200,230C7040,230,6880,230,6720,230C6560,230,6400,230,6240,230C6080,230,5920,230,5760,230C5600,230,5440,230,5280,230C5120,230,4960,230,4800,230C4640,230,4480,230,4320,230C4160,230,4000,230,3840,230C3680,230,3520,230,3360,230C3200,230,3040,230,2880,230C2720,230,2560,230,2400,230C2240,230,2080,230,1920,230C1760,230,1600,230,1440,230C1280,230,1120,230,960,230C800,230,640,230,480,230C320,230,160,230,80,230L0,230Z"
+        />
+      </svg>
+    </section>
+    <section class="combo_section">
+      <h2 class="combo_header">PICK YOUR COMBO</h2>
+      <p class="combo_text">
+        Our pre-selected combos of flavors and toppings utilize the properties
+        of our natural ingredients to nourish your body and your soul. Match our
+        Moods with yours!
+      </p>
+      <div class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img
+                src="./assets/img/happy_day.png"
+                class="gelato_carousel_image"
+              />
+              <h3 class="splide_carousel_title happy_day">HAPPY DAY</h3>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="./assets/img/beautiful_mind.png"
+                class="gelato_carousel_image"
+              />
+              <img src="./assets/img/leaf.svg" class="leaf_img_carousel" />
+              <h3 class="splide_carousel_title beautiful_mind">
+                BEAUTIFUL MIND
+              </h3>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="./assets/img/lots_of_cuddles.png"
+                class="gelato_carousel_image"
+              />
+              <h3 class="splide_carousel_title lots_cuddles">
+                LOTS OF CUDDLES
+              </h3>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="./assets/img/body_booster.png"
+                class="gelato_carousel_image"
+              />
+              <h3 class="splide_carousel_title body_booster">BODY BOOSTER</h3>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="./assets/img/after_surf.png"
+                class="gelato_carousel_image"
+              />
+              <h3 class="splide_carousel_title after_surf">AFTER SURF</h3>
+    </section>
+    <section></section>
+    <section></section>
+    <section></section>
+    <section></section>
 
-      </section>
-  
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-    </main>
-
-    
+   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
   </body>
+  <script src="./js/index.js"></script>
 </html>

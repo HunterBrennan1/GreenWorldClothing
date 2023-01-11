@@ -1,3 +1,205 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* ////////////////////////// */
+/* PLANT BASED SECTION  */
+/* /////////////////////////  */
+
+.plant-based-section{
+  background: #6fbc85;
+}
+
+.svg_wave_path_top{
+  height:80%;
+  background-color: #f7e9d7;
+  display: block;
+}
+.svg_wave_bottom{
+  height:50px;
+  width:100%;
+  background-color: #f7e9d7;
+  display: block;
+}
+.svg_wave_path_bottom{
+  height:100%;
+  background-color: #f7e9d7;
+  display: block;
+}
+
+.pb_content_parent{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  
+  gap:15%;
+
+  padding-left:10%;
+  padding-right:10%;
+}
+
+.image_container_pb{
+  height:800px;
+}
+
+.image2ndpage{
+  height:800px;
+}
+
+.leaf_img{
+  display:flex;
+  position: absolute;
+  left:240px;
+  top:990px;
+  margin-left: -40px;
+  z-index: 9999;
+  
+  -webkit-animation: rotation 4s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(3deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+.text_content_container {
+  color:#fff;
+}
+
+.pb_header{
+  font-family:  'Bakbak One', cursive;
+  font-size: 110px;
+  width:100px;
+  line-height: 1;
+}
+
+.pb_text{
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  line-height: 1.4;
+  margin-top:50px;
+  font-weight: 400;
+  text-align: left;
+  width:700px;
+}
+
+.pb_footer_text {
+  font-family:  'Bakbak One', cursive ;
+  font-size: 50px;
+  margin-top:15px;
+  margin-bottom: 15px;
+}
+
+
+
+/* ////////////////////////// */
+/* COMBO SECTION  */
+/* /////////////////////////  */
+
+
+.combo_section {
+  background-color: #f7e9d7;
+}
+
+.combo_header{
+  font-size: 100px;
+  font-family:'Bakbak One', cursive ;
+  color:#000000;
+  text-align: center;
+  position: relative;
+  bottom:80px;
+}
+
+.combo_text {
+  font-family: 'Lato', sans-serif ;
+  font-size: 30px;
+  color:#000000;
+  text-align: center;
+  position: relative;
+  bottom:80px;
+  padding-left:15%;
+  padding-right:15%;
+  font-weight: 700;
+}
+
+.splide__arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.splide__slide {
+  text-align: center !important;
+  align-items: center;
+  height:600px;
+}
+
+.gelato_carousel_image{
+  height:200px;
+  margin-bottom:20%;
+  z-index: 9999;
+}
+
+.splide_carousel_title{
+  font-family:'Bakbak One', cursive ;
+  font-size: 35px;
+  color: #e05500;
+}
+
+.beautiful_mind {
+  color:#408557;
+}
+
+.lots_cuddles {
+  color: #f2a5b2;
+}
+
+.body_booster {
+  color:#f2bf57;
+}
+
+.after_surf{
+  color:#4465e8;
+}
+
+.leaf_img_carousel {
+  position: relative;
+  bottom:100px;
+  right:50px;
+  z-index: -1;
+  height:180px;
+  -webkit-animation: rotation 5s infinite linear;
+}
+=======
 * {
   font-family: 'Bakbak One', sans-serif;
 }
@@ -249,3 +451,4 @@ font-size: 18px;
     padding-right: 13% !important;
   }
 }
+
