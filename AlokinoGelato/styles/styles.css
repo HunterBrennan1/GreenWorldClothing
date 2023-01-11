@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
 
@@ -198,3 +199,256 @@ body {
   height:180px;
   -webkit-animation: rotation 5s infinite linear;
 }
+=======
+* {
+  font-family: 'Bakbak One', sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:focus,
+a:hover {
+  color: black;
+}
+
+img {
+  overflow: clip;
+  overflow-clip-margin: content-box;
+}
+
+h1 {
+  color: black;
+}
+
+/* navbar section */
+
+nav {
+  background-color: #F7E9D7;
+  padding-top: 0px !important;
+}
+
+.nav-link {
+  font-family: 'Bakbak One', cursive;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+ul {
+  margin-left: 40%;
+}
+
+.navbar-toggler {
+background-color: #F7E9D7;
+height: 50px;
+width: 50px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+  border-color: none;
+} 
+
+
+/* banner text section */
+
+.hero-banner {
+  padding-left: 21% !important;
+  background-color: #F7E9D7;
+}
+
+.hero-banner-text {
+  font-family: 'Bakbak One';
+  font-weight: 700;
+  margin-top: 50px;
+}
+
+.banner-title {
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 90px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.discover-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: black;
+  white-space: nowrap;
+  -webkit-mask: url(/GreenWorldClothing/AlokinoGelato/styles/cta-background.svg);
+  -webkit-mask-size: 100% 100%;
+  text-transform: uppercase;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+.discover-link {
+color: white;
+font-size: 18px;
+}
+
+.discover-img {
+  width: 25px;
+  margin-left: 5px;
+}
+
+.lowercase {
+  display: block;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  text-transform: lowercase;
+}
+
+/* banner image section */
+
+.hero-img-ad {
+  display: flex;
+  justify-content: center;
+  padding-right: 15% !important;
+}
+
+#hero-img {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
+  background-color: #E4462D;
+  position: relative;
+  transform: rotate(12deg);
+}
+
+#banner-sun {
+  position: absolute;
+  z-index: 1;
+  width: 30%;
+  bottom: 50%;
+  left: -25px;
+  opacity: 0.5;
+  -webkit-animation:spin 40s linear infinite;
+  -moz-animation:spin 40s linear infinite;
+}
+
+@-moz-keyframes spin { 
+  100% { -moz-transform: rotate(360deg); } 
+}
+
+@-webkit-keyframes spin { 
+  100% { -webkit-transform: rotate(360deg); } 
+}
+
+@keyframes spin { 
+  100% { 
+      -webkit-transform: rotate(360deg); 
+      transform:rotate(360deg); 
+  } 
+}
+
+#hero-pint {
+  width: 645px;
+  height: 1161px;
+  z-index: 2;
+  position: absolute;
+  -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-15px); }
+}
+
+/* media querys */
+
+
+@media screen and (max-width: 767px){
+  .hero-banner {
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    text-align: left;
+    padding-left: 12% !important;
+    padding-right: 0;
+}
+
+  .lowercase {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    padding-right: 50px;
+    text-align: left;
+    text-transform: lowercase;
+    align-self: center !important;
+}
+
+  .upper {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding-right: 50px;
+    align-self: center !important;
+}
+
+  .subtitle {
+    padding-right: 50px;
+    margin-bottom: 0;
+    align-self: center !important;
+}
+
+  .discover-btn {
+    align-self: center !important;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    background-color: #e75711;
+}
+
+  .banner-wrap {
+    text-align: center;
+  }
+
+  a.nav-link {
+    text-align: start; 
+  }
+
+  .discover-img {
+    background-color: transparent;
+  }
+
+  .hero-img-ad {
+    padding-right: 13% !important;
+  }
+}
+
