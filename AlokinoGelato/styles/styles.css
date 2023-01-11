@@ -28,9 +28,11 @@ body {
 }
 
 .svg_wave_path_top{
-  height:80%;
+  height:350px;
   background-color: #f7e9d7;
-  display: block;
+  z-index: 0;
+  display:block;
+  position: relative;
 }
 .svg_wave_bottom{
   height:50px;
@@ -67,7 +69,7 @@ body {
   display:flex;
   position: absolute;
   left:240px;
-  top:990px;
+  top:1750px;
   margin-left: -40px;
   z-index: 9999;
   
@@ -267,6 +269,7 @@ width: 50px;
 .hero-banner {
   padding-left: 21% !important;
   background-color: #F7E9D7;
+  padding-bottom:100px;
 }
 
 .hero-banner-text {
@@ -278,7 +281,7 @@ width: 50px;
 .banner-title {
   display: inline-flex;
   flex-direction: column;
-  font-size: 80px;
+  font-size: 110px;
   font-weight: 800;
   line-height: 90px;
   text-transform: uppercase;
@@ -348,7 +351,7 @@ font-size: 18px;
   position: absolute;
   z-index: 1;
   width: 30%;
-  bottom: 50%;
+  bottom: 190px;
   left: -25px;
   opacity: 0.5;
   -webkit-animation:spin 40s linear infinite;
@@ -370,13 +373,19 @@ font-size: 18px;
   } 
 }
 
-#hero-pint {
-  width: 645px;
-  height: 1161px;
-  z-index: 2;
+.hero-pint {
+  width: 400px;
+  height: 700px !important;
+  z-index: 2 !important;
+  right:60px;
+  top: 0px;
   position: absolute;
   -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite  alternate;
+}
+
+#hero-pint {
+  z-index: 9999;
 }
 
 @-webkit-keyframes mover {
