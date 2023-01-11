@@ -61,8 +61,29 @@ body {
 .leaf_img{
   display:flex;
   position: absolute;
-  left:190px;
+  left:220px;
   top:1100px;
+  margin-left: -40px;
+  
+  -webkit-animation: rotation 4s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(3deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(-3deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
 }
 
 .text_content_container {
