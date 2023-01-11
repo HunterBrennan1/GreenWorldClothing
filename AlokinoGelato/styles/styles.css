@@ -196,4 +196,5 @@ body {
   right:50px;
   z-index: -1;
   height:180px;
+  -webkit-animation: rotation 5s infinite linear;
 }
