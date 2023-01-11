@@ -18,6 +18,10 @@ body {
   overflow-x: hidden;
 }
 
+/* ////////////////////////// */
+/* PLANT BASED SECTION  */
+/* /////////////////////////  */
+
 .plant-based-section{
   background: #6fbc85;
 }
@@ -46,8 +50,8 @@ body {
   
   gap:15%;
 
-  padding-left:200px;
-  padding-right:200px;
+  padding-left:10%;
+  padding-right:10%;
 }
 
 .image_container_pb{
@@ -113,4 +117,83 @@ body {
   font-size: 50px;
   margin-top:15px;
   margin-bottom: 15px;
+}
+
+
+
+/* ////////////////////////// */
+/* COMBO SECTION  */
+/* /////////////////////////  */
+
+
+.combo_section {
+  background-color: #f7e9d7;
+}
+
+.combo_header{
+  font-size: 100px;
+  font-family:'Bakbak One', cursive ;
+  color:#000000;
+  text-align: center;
+  position: relative;
+  bottom:80px;
+}
+
+.combo_text {
+  font-family: 'Lato', sans-serif ;
+  font-size: 30px;
+  color:#000000;
+  text-align: center;
+  position: relative;
+  bottom:80px;
+  padding-left:15%;
+  padding-right:15%;
+  font-weight: 700;
+}
+
+.splide__arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.splide__slide {
+  text-align: center !important;
+  align-items: center;
+  height:600px;
+}
+
+.gelato_carousel_image{
+  height:200px;
+  margin-bottom:20%;
+  z-index: 9999;
+}
+
+.splide_carousel_title{
+  font-family:'Bakbak One', cursive ;
+  font-size: 35px;
+  color: #e05500;
+}
+
+.beautiful_mind {
+  color:#408557;
+}
+
+.lots_cuddles {
+  color: #f2a5b2;
+}
+
+.body_booster {
+  color:#f2bf57;
+}
+
+.after_surf{
+  color:#4465e8;
+}
+
+.leaf_img_carousel {
+  position: relative;
+  bottom:100px;
+  right:50px;
+  z-index: -1;
+  height:180px;
 }

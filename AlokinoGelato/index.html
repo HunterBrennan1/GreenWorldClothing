@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide-core.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
+
     <title>Alokino Gelato</title>
   </head>
   <body>
@@ -74,10 +80,64 @@
         />
       </svg>
     </section>
-    <section></section>
+    <section class="combo_section">
+      <h2 class="combo_header">PICK YOUR COMBO</h2>
+      <p class="combo_text">
+        Our pre-selected combos of flavors and toppings utilize the properties
+        of our natural ingredients to nourish your body and your soul. Match our
+        Moods with yours!
+      </p>
+      <div class="splide" aria-label="Splide Basic HTML Example">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img
+                src="./assets/img/happy_day.png"
+                class="gelato_carousel_image"
+              />
+              <h3 class="splide_carousel_title happy_day">HAPPY DAY</h3>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="./assets/img/beautiful_mind.png"
+                class="gelato_carousel_image"
+              />
+              <img src="./assets/img/leaf.svg" class="leaf_img_carousel" />
+              <h3 class="splide_carousel_title beautiful_mind">
+                BEAUTIFUL MIND
+              </h3>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="./assets/img/lots_of_cuddles.png"
+                class="gelato_carousel_image"
+              />
+              <h3 class="splide_carousel_title lots_cuddles">
+                LOTS OF CUDDLES
+              </h3>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="./assets/img/body_booster.png"
+                class="gelato_carousel_image"
+              />
+              <h3 class="splide_carousel_title body_booster">BODY BOOSTER</h3>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="./assets/img/after_surf.png"
+                class="gelato_carousel_image"
+              />
+              <h3 class="splide_carousel_title after_surf">AFTER SURF</h3>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
     <section></section>
     <section></section>
     <section></section>
     <section></section>
   </body>
+  <script src="./js/index.js"></script>
 </html>
