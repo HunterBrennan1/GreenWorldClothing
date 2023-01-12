@@ -201,7 +201,9 @@ body {
   height:180px;
   -webkit-animation: rotation 5s infinite linear;
 }
-=======
+
+/*  */
+
 * {
   font-family: 'Bakbak One', sans-serif;
 }
@@ -230,29 +232,29 @@ h1 {
   color: black;
 }
 
-/* navbar section */
+/* ///////////////////////// */
+/* NAVBAR SECTION */
+/* //////////////////////// */
 
 nav {
   background-color: #F7E9D7;
   padding-top: 0px !important;
+  padding-top: 25px !important;
 }
 
 .nav-link {
   font-family: 'Bakbak One', cursive;
   color: black;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
-  margin: 0 20px;
-}
-
-ul {
-  margin-left: 40%;
+  margin: 0 12px;
+  min-width: 100%;
 }
 
 .navbar-toggler {
-background-color: #F7E9D7;
-height: 50px;
-width: 50px;
+  background-color: #F7E9D7;
+  height: 50px;
+  width: 50px;
 }
 
 .navbar-toggler-icon {
@@ -261,15 +263,21 @@ width: 50px;
 
 .navbar-toggler {
   border-color: none;
-} 
+}
+ .logo {
+  margin-left: 20px;
+ }
 
 
-/* banner text section */
+/* ///////////////////////// */
+/* BANNER TEXT SECTION */
+/* //////////////////////// */
 
 .hero-banner {
-  padding-left: 21% !important;
+  padding-left: 15% !important;
   background-color: #F7E9D7;
   padding-bottom:100px;
+  padding-top: 40px;
 }
 
 .hero-banner-text {
@@ -288,7 +296,7 @@ width: 50px;
 }
 
 .subtitle {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 700;
   padding-bottom: 0;
 }
@@ -312,7 +320,7 @@ width: 50px;
 
 .discover-link {
 color: white;
-font-size: 18px;
+font-size: 25px;
 }
 
 .discover-img {
@@ -328,8 +336,9 @@ font-size: 18px;
   text-align: left;
   text-transform: lowercase;
 }
-
-/* banner image section */
+/* ///////////////////////// */
+/* BANNER IMAGE SECTION */
+/* //////////////////////// */
 
 .hero-img-ad {
   display: flex;
@@ -345,6 +354,7 @@ font-size: 18px;
   background-color: #E4462D;
   position: relative;
   transform: rotate(12deg);
+  z-index: 999999999;
 }
 
 #banner-sun {
@@ -376,7 +386,7 @@ font-size: 18px;
 .hero-pint {
   width: 400px;
   height: 700px !important;
-  z-index: 2 !important;
+  z-index: 999999 !important;
   right:60px;
   top: 0px;
   position: absolute;
@@ -390,14 +400,102 @@ font-size: 18px;
 
 @-webkit-keyframes mover {
   0% { transform: translateY(0); }
-  100% { transform: translateY(-15px); }
+  100% { transform: translateY(-10px); }
 }
 @keyframes mover {
   0% { transform: translateY(0); }
-  100% { transform: translateY(-15px); }
+  100% { transform: translateY(-10px); }
 }
 
-/* media querys */
+/* ////////////////////////// */
+/* INGREDIENTS SECTION */
+/* ////////////////////////// */
+
+.ingredients-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #8ab5e1;
+}
+
+.ingredients-header {
+  font-family:  'Bakbak One', cursive ;
+  color: black;
+  font-size: 130px;
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.ingredients {
+  width: 100%;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.product-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  width: 284.75px;
+  height: 419px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.circle-two {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 22px;
+}
+
+.product-info {
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  line-height: 40px;
+}
+
+.product-info-small {
+  color: white;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-size: 45px;
+}
+
+.recylcing-img {
+  width: 100px;
+  align-self: center;
+}
+
+.ingredients-text {
+  font-size: 19px;
+  width: 100%;
+  max-width:  220.75px;
+  flex-wrap: nowrap;
+}
+
+/* ///////////////////////// */
+/* MEDIA QUERYS */
+/* //////////////////////// */
 
 
 @media screen and (max-width: 767px){
@@ -459,5 +557,6 @@ font-size: 18px;
   .hero-img-ad {
     padding-right: 13% !important;
   }
+
 }
 

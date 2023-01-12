@@ -21,16 +21,16 @@
   
   <body>
     <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary pt-5">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img class="img-fluid" src="styles/logo.svg" alt="Sites Logo" width="180" height="24" class="d-inline-block align-text-top">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid col-9 pl-0 pt-1">
+        <a class="navbar-brand " href="#">
+          <img class="logo img-fluid" src="styles/logo.svg" alt="Sites Logo" width="180" height="24" class="d-inline-block align-text-top">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse col-6" id="navbarNav">
+          <ul class="navbar-nav ml-5">
             <li class="nav-item">
               <a class="nav-link mt-3" href="#">Moods</a>
             </li>
@@ -49,7 +49,7 @@
     </nav>
     </header>
 
-    <section class="container-fluid hero-banner pt-1 ">
+    <section class="container-fluid hero-banner">
     <div class="row hero-banner-text">
           <div class="banner-wrap col-lg-6 col-md-6 order-2">
             <h1 class="banner-title">
@@ -140,6 +140,7 @@
         />
       </svg>
     </section>
+
     <section class="combo_section">
       <h2 class="combo_header">PICK YOUR COMBO</h2>
       <p class="combo_text">
@@ -190,7 +191,46 @@
               />
               <h3 class="splide_carousel_title after_surf">AFTER SURF</h3>
     </section>
-    <section></section>
+
+    <!-- INGREDIENTS INFO SECTION -->
+
+    <section class="ingredients-section">
+      <h3 class=" ingredients-header text-center">Alokino in a nutshell</h3>
+      <div class="row ml-5 mr-5 ingredients">
+        <div class="col-3 product-info-wrapper">
+          <div class="circle">
+            <span class="product-info">non</span>
+            <span class="product-info">gmo</span>
+          </div>
+          <p class="ingredients-text">We select high-quality ingredients that haven't been altered by humans... because, nature first.</p>
+        </div>
+
+        <div class="col-3 product-info-wrapper">
+          <div class="circle-two">
+            <span class="product-info-small">plant</span>
+            <span class="product-info-small">based</span>
+          </div>
+          <p class="ingredients-text">With our plant-based gelato you can indulge yourself in a sustainable way.</p>
+        </div>
+
+        <div class="col-3 product-info-wrapper">
+          <div class="circle">
+            <img class="recylcing-img" src="./styles/Recycling_symbol.svg" alt="Recycling symbol">
+          </div>
+          <p class="ingredients-text">All of our pacaging is plastic-free and recylcable, including the ink we use for messaging.</p>
+        </div>
+
+        <div class="col-3 product-info-wrapper">
+          <div class="circle">
+            <span class="product-info-small">hand</span>
+            <span class="product-info-small">crafted</span>
+          </div>
+          <p class="ingredients-text">We believe in honest foods. We source only raw or low processed ingredients for our recipes</p>
+        </div>
+
+
+    </section>
+
     <section></section>
     <section></section>
     <section></section>
